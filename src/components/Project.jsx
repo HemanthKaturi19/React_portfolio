@@ -24,10 +24,10 @@ const Project = ({project}) => {
                 <p className="text-gray-300 text-sm mt-6 text-left">{project.matter}
                 </p>
                 <div className="flex justify-center mt-6 lg:justify-start">
-                <div className=" px-4 py-1 text-purple-950 bg-zinc-950 text-md font-semibold rounded-md lg:bg-zinc-900">{project.tech[0]}</div>
-                <div className=" px-4 py-1 text-purple-950 bg-zinc-950 text-md font-semibold rounded-md ml-2 lg:bg-zinc-900">{project.tech[1]}</div>
-                <div className=" px-4 py-1 text-purple-950 bg-zinc-950 text-md font-semibold rounded-md ml-2 lg:bg-zinc-900">{project.tech[2]}</div>
-                <div className=" px-4 py-1 text-purple-950 bg-zinc-950 text-md font-semibold rounded-md ml-2 lg:bg-zinc-900">{project.tech[3]}</div>
+                <div className=" px-4 py-1 text-purple-800 bg-zinc-950 text-md font-semibold rounded-md lg:bg-zinc-900">{project.tech[0]}</div>
+                <div className=" px-4 py-1 text-purple-800 bg-zinc-950 text-md font-semibold rounded-md ml-2 lg:bg-zinc-900">{project.tech[1]}</div>
+                <div className=" px-4 py-1 text-purple-800 bg-zinc-950 text-md font-semibold rounded-md ml-2 lg:bg-zinc-900">{project.tech[2]}</div>
+                <div className=" px-4 py-1 text-purple-800 bg-zinc-950 text-md font-semibold rounded-md ml-2 lg:bg-zinc-900">{project.tech[3]}</div>
                 </div>
                 </div>   
                 </motion.div>

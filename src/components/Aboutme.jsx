@@ -11,15 +11,31 @@ const Aboutme = () => {
         </div>  
          <div className="flex justify-around flex-col lg:flex-row-reverse lg:p-20">
             <div className="tracking-tight h-72 max-w-Screen-xl flex justify-center  lg:items-start mt-8 lg:mt-0 lg:w-fit font-thin text-gray-100 lg:ml-8">
-                <motion.p
+                <motion.div
                 whileInView={{opacity:1,x:0}}
                 initial={{x:100,opacity:0}}
                 transition={{duration:0.5}}
-                >Hi! I'm a passionate Front-End Developer specializing in React. With a keen eye for design and a love for creating seamless user experiences, I bring ideas to life through clean, efficient code.
-I thrive on transforming complex concepts into intuitive interfaces and enjoy collaborating with teams to deliver innovative solutions. Whether I'm building responsive layouts or optimizing performance, I’m dedicated to crafting beautiful, functional web applications.
-When I’m not coding, you can find me exploring the latest web technologies, contributing to open source projects, or diving into the world of design. Let’s connect and create something amazing together!</motion.p>
+                >
+                <h1 className="text-3xl font-normal">Engineering</h1>
+                  <p className="text-xl font-normal mt-4">Barath Institute Of Engineering and Technology</p>
+                  <div className="flex justify-between mt-4">
+                    <p>Information Technology</p>
+                    <p>CGPA:6.6</p>
+                  </div>
+                  <h1 className="text-3xl font-normal mt-8">Intermediate</h1>
+                  <p className="text-xl font-normal mt-4">Narayana Junior College</p>
+                  <div className="flex justify-between mt-4">
+                    <p>MPC</p>
+                    <p>Percentage:92%</p>
+                  </div>
+                  <h1 className="text-3xl font-normal mt-8">10th Standard</h1>
+                  <p className="text-xl font-normal mt-4">Narayana e-Techno School</p>
+                  <div className="flex justify-start mt-4">
+                    <p>CGPA:9.7</p>
+                  </div>
+                </motion.div>
             </div>
-            <div className="h-full w-full   mt-0 hidden md:block">
+            <div className="h-auto w-8/12   mt-0 hidden md:block">
                 <motion.img 
                 whileInView={{opacity:1,x:0}}
                 initial={{x:-100,opacity:0}}
